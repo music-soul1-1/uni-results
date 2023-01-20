@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "to-do-app",
-    "slug": "to-do-app",
-    "version": "1.0.0",
+    "name": "ECTS results",
+    "slug": "ECTS_results",
+    "version": "0.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/icon2.png",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#A1B6D9"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/adaptive-icon2.png",
+        "backgroundColor": "#A1B6D9"
+      },
+      "package": "com.music_soul1_1.ECTS_results"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aed1ecb9-a10e-48c0-bbbe-91b8acbb5bee"
+      }
     }
   }
 }
